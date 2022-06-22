@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>AlbumAPI</artifactId>
+    <artifactId>albumapi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>AlbumAPI</name>
-    <description>AlbumAPI</description>
+    <name>albumapi</name>
+    <description>albumapi</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -21,7 +21,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
