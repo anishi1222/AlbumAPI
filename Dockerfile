@@ -39,4 +39,4 @@ RUN mkdir /opt/app
 COPY --from=build target/*.jar /opt/app/app.jar
 
 EXPOSE 3500
-ENTRYPOINT ["java","-jar","-Dserver.port=3500", "/opt/app/app.jar"]
+ENTRYPOINT ["java","-jar", "/opt/app/app.jar"]
